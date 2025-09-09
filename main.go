@@ -50,7 +50,7 @@ func writeJSONFile(filePath string, data InvocationData) error {
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: mycli <script_path>")
+		fmt.Println("Usage: trk <script_path>")
 		os.Exit(1)
 	}
 
